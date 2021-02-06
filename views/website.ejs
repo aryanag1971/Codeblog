@@ -1,0 +1,18 @@
+<%- include('header'); -%>
+    <h1>Blog website</h1>
+    <div class="container">
+        <% for(var i=0;i<post.length;i++){ %>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h3 class="card-title"><%=post[i][0] %></h3>
+                  <h4 class="card-subtitle mb-2 text-muted"><%=post[i][2] %></h4>
+                  <p class="card-text"><%=post[i][1] %></p>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+
+        <%}%>
+    </div>
+    
+</body>
+</html>

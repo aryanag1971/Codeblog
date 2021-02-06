@@ -1,0 +1,17 @@
+<%- include('header'); -%>
+<div class="container">
+    <h1>Compose</h1>
+    <form action="/compose" method="post">
+        <label for="title">Title</label><br>
+        <input type="text" name="title" placeholder="Type Here" id="title" class="inp"><br>
+        <label for="descript">Description</label><br>
+        <input type="text" name="description" placeholder="Type little description Here" id="descript" class="inp"><br>
+        <label for="post">Post</label><br>
+        <textarea rows="20" cols="100" id="post" name="post"></textarea><br>
+        <button class="btn btn-primary" type="submit">Publish</button>
+    </form>
+</div>
+</body>
+</html>
+
+    
